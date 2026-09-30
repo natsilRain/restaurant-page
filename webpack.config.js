@@ -1,5 +1,6 @@
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import { type } from "node:os";
 
 export default {
     mode: "development",
@@ -30,6 +31,10 @@ export default {
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: "asset/resource",
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: "asset/resource",
             },
         ],

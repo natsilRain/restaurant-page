@@ -38,3 +38,136 @@ ol, ul {
     list-style: none;
     padding-inline: 0;
 }
+
+/* CSS Styling */
+
+@font-face {
+    font-family: "Silly";
+    src: url("./Sniglet-Regular.ttf");
+    font-style: normal;
+}
+
+header {
+    padding: 20px 0 0 0;
+    background-color: rgb(188, 255, 188);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar button {
+    margin: 0px 10px;
+    min-width: 80px;
+    padding: 5px;
+
+    border: 4px solid green;
+    border-bottom: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.content {
+    background-image: url("./leaves.jpg");
+
+    padding-top: 25px;
+    min-height: 100vh;
+
+    font-family: "Silly", Geneva, Tahoma, sans-serif;
+}
+
+.content-div {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(188, 255, 188);
+    border: 8px solid green;
+    border-radius: 26px;
+}
+
+.headline {
+    text-decoration: 2px underline;
+}
+
+.intro-text {
+    max-width: 450px;
+    margin: 25px;
+    padding: 25px;
+    border: 8px solid green;
+    border-style: groove;
+    border-radius: 22px;
+}
+
+.hours-list {
+    max-width: 450px;
+    min-width: 450px;
+    margin: 25px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 8px solid green;
+    border-style: groove;
+    border-radius: 22px;
+}
+
+.hours-list h2 {
+    text-decoration: 2px underline;
+    margin-bottom: 10px;
+}
+
+.location {
+    max-width: 450px;
+    min-width: 450px;
+    margin: 25px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 8px solid green;
+    border-style: groove;
+    border-radius: 22px;
+}
+
+.location h2 {
+    text-decoration: 2px underline;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    max-width: 450px;
+    min-width: 450px;
+    margin: 25px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 8px solid green;
+    border-style: groove;
+    border-radius: 22px;
+}
+
+.sub-header {
+    margin-top: 25px;
+}
+
+.contact-card {
+    max-width: 350px;
+    min-width: 350px;
+    margin: 25px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 8px solid green;
+    border-style: groove;
+    border-radius: 22px;
+}
+
+.contact-card ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
